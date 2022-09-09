@@ -1,3 +1,4 @@
+import 'package:cookie_code/Utils/splashScreen.dart';
 import 'package:flutter/material.dart';
 
 import 'Utils/homepage.dart';
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      home: const MyHomePage(),
+      home: const SplashScreen(),
     );
   }
 }
